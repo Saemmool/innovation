@@ -227,17 +227,17 @@ h2 {
 
 .btn {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 5px 5px;
     color: #fff;
-    border: 2px #fff solid;
+    border: 2px #fff solid;∏
     border-radius: 5px;
     font-size: 1em;
     margin-top: 1em;
 }
 
-/* .profname, .btn {
-    display: none;
-} */
+.profname, .btn {
+    display: block;
+}
 
 .profbox:hover::after{
     filter: grayscale(0%);
