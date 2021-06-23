@@ -35,6 +35,7 @@ a {
 body {
     margin: 0;
     font-family: Lato, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
 
 ul {
@@ -182,6 +183,81 @@ h2 {
     font-family: 'Nanum Myeongjo', serif;
 }
 
+/* Profile */
+
+.profile {
+    width: 100%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.profbox {
+    margin: auto;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+#photobox1 {
+    background: url('images/saemmool.jpg') no-repeat center center/cover;
+}
+
+#photobox2 {
+    background: url('images/eunji.jpg') no-repeat center center/cover;
+}
+
+#photobox3 {
+    background: url('images/eunji.jpg') no-repeat center center/cover;
+}
+
+#photobox1, #photobox2, #photobox3 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profname {
+    margin-top: 8.5em;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    color: #fff;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+/* .profname, .btn {
+    display: none;
+} */
+
+.profbox:hover::after{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.profbox:hover #photobox1 {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.profbox:hover #photobox2 {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.profbox:hover #photobox3 {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
 
 /* Footer */
 
