@@ -11,10 +11,8 @@
 
 .work-thumbnail {
     margin: 30px 50px 0;
-}
-
-.summary-title {
-    font-size: 18px;
-    text-indent: 50px;
-    margin: 0 0 200px 0;
+    width: 40%;
+    float: left;
+    font-size: 20px;
+    color: red;
 }
